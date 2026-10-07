@@ -1,0 +1,32 @@
+{
+  "name": "browseros",
+  "version": "0.0.1-beta.1",
+  "author": "Nishit Samar (AlloyDark)",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "Operating System",
+    "Browser",
+    "BrowserOS",
+    "Environment",
+    "High Level"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.4",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
